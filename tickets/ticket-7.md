@@ -83,7 +83,7 @@ Réponse de l'assistant IA au prompt 1 (aucun correctif demandé) :
 
 - [x] Le problème du ticket n'existe plus : un message de 235 caractères tapé dans la zone de texte est gardé en entier (235 caractères dans le panier, « FIN » inclus), y compris après rechargement de la page ; la ligne du panier s'affiche sans débordement et le prix reste 41,40 € (Blanc pur petit + carte)
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 2 (un clic sur + ajoute un seul exemplaire), ticket 3 (« Merci » donne 4 bouquets), ticket 4 (même bouquet avec deux messages différents : deux lignes ; même message : une ligne ×2), ticket 5 (supprimer retire une seule ligne), ticket 6 (Blanc pur Moyen avec vase : sous-total exactement 60). Le ticket 1 n'est pas concerné par ce changement.
-- [ ] Commit : 
+- [X] Commit : "ticket 7 : le message de la carte n'est plus coupé à 150 caractères"
 
 **Remarque :** ces vérifications ont été faites dans le navigateur intégré à l'application par l'assistant IA, à ma demande (vrais clics et vraie saisie pour le scénario du ticket).
 
