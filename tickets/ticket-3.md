@@ -87,7 +87,7 @@ Je veux : un correctif le plus petit possible, une explication, la liste de ce q
 - [x] Le problème du ticket n'existe plus : l'occasion « Merci » affiche maintenant 4 bouquets, dont « Le petit mot »
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 1 (`noel10` accepté) et ticket 2 (le + ajoute un seul exemplaire)
 - [x] Contrôle des occasions : aucune occasion inconnue dans le catalogue ; les autres occasions n'ont pas changé
-- [ ] Commit : "ticket 3 : « Le petit mot » apparaît avec l'occasion « Merci »"
+- [X] Commit : "ticket 3 : « Le petit mot » apparaît avec l'occasion « Merci »"
 
 ## 6. Réponse à la cliente
 
