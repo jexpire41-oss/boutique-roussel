@@ -86,7 +86,7 @@ Voir la fin de la rubrique 2 (réponse de l'assistant IA au prompt 1, sans corre
 
 - [x] Le problème du ticket n'existe plus : avec « Après-midi » coché, la confirmation dit « (après-midi) » ; avec « Matin » (choix par défaut), elle dit « (matin) »
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 3 (« Merci » donne 4 bouquets), ticket 6 (Blanc pur Moyen avec vase : sous-total exactement 60). La modification ne touche que la lecture du moment dans `commander`, les tickets 1, 2, 4, 5 et 7 ne passent pas par cette ligne.
-- [ ] Commit : 
+- [X] Commit : "ticket 8 : la confirmation indique le moment de livraison réellement choisi"
 
 **Remarque :** ces vérifications ont été faites dans le navigateur intégré à l'application par l'assistant IA, à ma demande (vrais clics pour l'après-midi). Ce que la boutique reçoit comme « commande » est ce même message de confirmation : il est maintenant correct.
 

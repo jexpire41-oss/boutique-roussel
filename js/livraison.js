@@ -36,7 +36,10 @@ export function joursDeLivraison(depuis) {
   for (let ecart = premier; jours.length < 6; ecart++) {
     const jour = new Date(depuis.getFullYear(), depuis.getMonth(), depuis.getDate() + ecart);
     if (regles.joursFermes.includes(jour.getDay())) continue;
-    jours.push(jour.toISOString().slice(0, 10));
+    // Date locale au format AAAA-MM-JJ (toISOString passerait en UTC et reculerait d'un jour).
+    const mois = String(jour.getMonth() + 1).padStart(2, "0");
+    const numero = String(jour.getDate()).padStart(2, "0");
+    jours.push(jour.getFullYear() + "-" + mois + "-" + numero);
   }
   return jours;
 }
