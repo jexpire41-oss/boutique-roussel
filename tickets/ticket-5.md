@@ -98,7 +98,7 @@ Réponse de l'assistant IA au prompt 1 (aucun correctif demandé) :
 
 - [x] Le problème du ticket n'existe plus (étapes rejouées) : avec trois lignes, « Supprimer » sur la 1ʳᵉ ne retire que la 1ʳᵉ, sur la 2ᵉ ne retire que la 2ᵉ, sur la dernière ne retire que la dernière ; le panier en mémoire, `localStorage` et l'affichage sont identiques
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 1 (en tapant `noel10 ` avec un espace final dans le champ puis « Appliquer » : « Code NOEL10 appliqué. », code gardé dans le panier), ticket 2 (un clic sur + ajoute un seul exemplaire), ticket 3 (« Merci » donne 4 bouquets dont « Le petit mot »), ticket 4 (petite et grande Pivoine poudrée restent sur deux lignes) ; et le bouton − jusqu'à 0 ne supprime que la ligne concernée
-- [ ] Commit : 
+- [X] Commit : "ticket 5 : supprimer ne retire que la ligne choisie"
 
 **Remarque :** ces vérifications ont été faites dans le navigateur intégré à l'application par l'assistant IA, à ma demande. Pour le ticket 5 et le ticket 1, les clics et la saisie ont été faits comme un utilisateur (vrai clic sur « Supprimer », saisie dans le champ du code promo).
 

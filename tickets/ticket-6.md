@@ -102,7 +102,7 @@ Réponse de l'assistant IA au prompt 1 (aucun correctif demandé) :
 
 - [x] Le problème du ticket n'existe plus (étapes rejouées) : Blanc pur Moyen avec vase et code postal 37000 donne Sous-total 60,00 €, Livraison « Offerte », Total 60,00 €. Un montant sous 60 (par exemple 59,99) facture bien 5,90 € : la règle n'est pas devenue trop large.
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 1 (`noel10 ` avec un espace est accepté, « Code NOEL10 appliqué. »), ticket 3 (« Merci » affiche 4 bouquets), ticket 4 (petite et grande Pivoine poudrée restent sur deux lignes), ticket 5 (« Supprimer » sur la 1ʳᵉ ligne ne retire qu'elle, et la remise de 10 % se calcule bien sur le sous-total restant : 74,80 € moins 7,48 € = 67,32 €)
-- [ ] Commit : 
+- [X] Commit : "ticket 6 : la livraison offerte dès 60 € ne se perd plus à cause des arrondis"
 
 **Remarque :** ces vérifications ont été faites dans le navigateur intégré à l'application par l'assistant IA, à ma demande (vrais clics et vraie saisie).
 
