@@ -108,7 +108,7 @@ Je veux : un correctif le plus petit possible, l'emplacement le mieux placé pou
 
 - [x] Le problème du ticket n'existe plus : petite puis grande Pivoine poudrée donnent deux lignes, « Petit ×1 » (34,90 €) et « Grand ×1 » (50,50 €)
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 1 (`noel10 ` avec un espace est accepté), ticket 2 (un clic sur + ajoute un seul exemplaire), ticket 3 (« Merci » affiche 4 bouquets dont « Le petit mot »)
-- [ ] Commit : "ticket 4 : les tailles différentes d'un même bouquet restent sur deux lignes"
+- [X] Commit : "ticket 4 : les tailles différentes d'un même bouquet restent sur deux lignes"
 
 **Remarque :** ces vérifications ont été faites dans le navigateur intégré à l'application par l'assistant IA, à ma demande.
 
