@@ -40,6 +40,11 @@ async function demarrer() {
     etat.codePostal = evenement.target.value;
     rafraichir();
   });
+  document.querySelector("#panier-liste").addEventListener("click", (evenement) => {
+    const cible = evenement.target.closest("button[data-action]");
+    if (!cible) return;
+    quandActionPanier(cible.dataset.action, Number(cible.dataset.index));
+  });
   document.querySelector("#bouton-commander").addEventListener("click", commander);
 
   rafraichir();
@@ -92,7 +97,7 @@ function appliquerCode(evenement) {
 // Recalcule et réaffiche le panier et le récapitulatif.
 function rafraichir() {
   const lignes = lignesPanier();
-  afficherPanier(lignes, quandActionPanier);
+  afficherPanier(lignes);
 
   const montant = sousTotal(lignes);
   let remise = 0;
