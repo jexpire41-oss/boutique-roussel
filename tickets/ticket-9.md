@@ -89,7 +89,7 @@ Réponse de l'assistant IA au prompt 1 (aucun correctif demandé) :
 
 - [x] Le problème du ticket n'existe plus : avec `?maintenant=2026-11-14T19:30` (samedi soir), la liste donne lundi 16, mardi 17, mercredi 18, jeudi 19, vendredi 20 et **samedi 21** novembre, sans dimanche. Avec un vendredi à 10 h, la liste commence par samedi 14 (livraison dès le lendemain avant 14 h) ; à 15 h, par lundi 16 (le dimanche est sauté). Aucun dimanche dans aucune des listes testées.
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 8 (jour choisi « lundi 16 novembre » avec « Après-midi » : confirmation « lundi 16 novembre (après-midi) »), ticket 6 (Blanc pur Moyen avec vase : Livraison « Offerte », total 60,00 €). La modification ne touche que la construction des dates de livraison : les tickets 1, 2, 3, 4, 5 et 7 ne passent pas par cette fonction.
-- [ ] Commit : 
+- [X] Commit : "ticket 9 : plus de livraison proposée le dimanche (dates locales au lieu de l'heure UTC)"
 
 **Remarque :** ces vérifications ont été faites dans le navigateur intégré à l'application par l'assistant IA, à ma demande. Le fuseau du navigateur est Europe/Paris ; le correctif ne dépend pas du fuseau (il utilise la date locale), mais je ne l'ai testé que dans ce fuseau.
 

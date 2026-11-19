@@ -16,5 +16,19 @@ export function chargerPanier() {
     return { lignes: [], codePromo: "" };
   }
   const donnees = JSON.parse(brut);
-  return { lignes: donnees.lignes || donnees, codePromo: donnees.codePromo || "" };
+  const lignes = donnees.lignes || donnees;
+  // On ne garde que les lignes au format actuel : un ancien panier ne doit pas casser la page.
+  return { lignes: Array.isArray(lignes) ? lignes.filter(ligneValide) : [], codePromo: donnees.codePromo || "" };
+}
+
+// Une ligne du format actuel : un bouquet, des options et une quantité positive.
+function ligneValide(ligne) {
+  return (
+    Boolean(ligne) &&
+    typeof ligne.bouquetId === "string" &&
+    typeof ligne.options === "object" &&
+    ligne.options !== null &&
+    typeof ligne.quantite === "number" &&
+    ligne.quantite > 0
+  );
 }
