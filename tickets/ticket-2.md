@@ -113,7 +113,7 @@ Je veux : un correctif le plus petit possible, une explication ligne par ligne, 
 - [x] Le problème du ticket n'existe plus : après rechargement et ajout d'un bouquet, trois clics sur + donnent 2, 3, 4
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 1, le code `noel10` est toujours accepté
 - [x] Autres boutons testés : − et Supprimer fonctionnent
-- [ ] Commit : "ticket 2 : le bouton + ajoute un seul exemplaire (écouteur installé une seule fois)"
+- [X] Commit : "ticket 2 : le bouton + ajoute un seul exemplaire (écouteur installé une seule fois)"
 
 ## 6. Réponse à la cliente
 
