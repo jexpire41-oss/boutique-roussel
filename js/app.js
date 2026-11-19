@@ -82,7 +82,7 @@ function quandActionPanier(action, index) {
 // Le formulaire du code promo.
 function appliquerCode(evenement) {
   evenement.preventDefault();
-  const saisie = document.querySelector("#code-promo").value;
+  const saisie = document.querySelector("#code-promo").value.trim().toUpperCase();
   const resultat = appliquerPromo(saisie, sousTotal(lignesPanier()));
   etat.codePromo = resultat.valide ? saisie : "";
   document.querySelector("#message-promo").textContent = resultat.message;
