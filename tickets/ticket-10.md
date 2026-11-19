@@ -101,7 +101,7 @@ Réponse de l'assistant IA au prompt 1 (aucun correctif demandé) :
 
 - [x] Le problème du ticket n'existe plus : avec l'ancien panier simulé (tableau `[{bouquet, taille, qte}]`), la page affiche un panier vide, Sous-total 0,00 € et aucun « NaN » ni « undefined » ; même résultat avec l'ancien contenu déjà réenregistré en « version 2 ». Avec un panier actuel valide mélangé à une ancienne ligne, la bonne ligne est gardée (« Champêtre, Petit, ×2, 59,80 € ») et l'ancienne est écartée. La cliente peut ensuite commander : confirmation « Merci ! Votre commande est enregistrée pour le samedi 21 novembre (matin). ».
 - [x] Les tickets déjà clos fonctionnent toujours : ticket 3 (« Merci » donne 4 bouquets), ticket 6 (Blanc pur Moyen avec vase : sous-total exactement 60), ticket 7 (un message de 235 caractères est conservé après rechargement du panier enregistré, le code promo NOEL10 aussi), ticket 8 (confirmation avec le moment choisi). Les tickets 1, 2, 4, 5 et 9 ne passent pas par la lecture du panier enregistré.
-- [ ] Commit : 
+- [X] Commit : "ticket 10 : un ancien panier enregistré ne casse plus la page (NaN €)"
 
 **Remarque :** ces vérifications ont été faites dans le navigateur intégré à l'application par l'assistant IA, à ma demande. L'ancien format de panier est une reconstitution (voir rubrique 1) ; le correctif ne dépend pas de ce format, il écarte tout ce qui n'a pas le format actuel. Non traité ici : un fichier enregistré dont le texte est abîmé (`JSON.parse` qui échoue) planterait toujours la page au démarrage.
 
