@@ -35,8 +35,10 @@ export function prixLigne(ligne) {
 }
 
 // Sous-total du panier, avant remise et livraison.
+// Arrondi au centime : additionner des décimaux peut donner 59.99999999999999.
 export function sousTotal(lignes) {
-  return lignes.reduce((total, ligne) => total + prixLigne(ligne), 0);
+  const total = lignes.reduce((somme, ligne) => somme + prixLigne(ligne), 0);
+  return Math.round(total * 100) / 100;
 }
 
 // Total à payer : sous-total, moins la remise, plus la livraison.
