@@ -24,6 +24,7 @@ Tu m'aides à trouver la cause d'un comportement sur le site d'une boutique de f
 1. Propose trois hypothèses au plus, classées de la plus probable à la moins probable.
 2. Pour chacune : comment la vérifier dans le navigateur (console, point d'arrêt).
 3. Aucun correctif à ce stade.
+4. Réponds en français, avec des mots simples.
 
 [SYMPTOME]
 Une cliente voulait écrire un long message sur la carte pour un mariage. Le site l'a bloquée au milieu de sa phrase. La cliente de la boutique demande d'enlever cette limite.

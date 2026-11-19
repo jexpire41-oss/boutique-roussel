@@ -24,6 +24,7 @@ Tu m'aides à trouver la cause d'un bug sur le site d'une boutique de fleurs (Ja
 1. Propose trois hypothèses au plus, classées de la plus probable à la moins probable.
 2. Pour chacune : comment la vérifier dans le navigateur (console, point d'arrêt).
 3. Aucun correctif à ce stade.
+4. Réponds en français, avec des mots simples.
 
 [SYMPTOME]
 Une cliente avait choisi une livraison l'après-midi. Le message de confirmation disait « matin » et la commande reçue par la boutique aussi. Le livreur est passé le matin : personne.

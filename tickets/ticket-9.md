@@ -23,6 +23,7 @@ Tu m'aides à trouver la cause d'un bug sur le site d'une boutique de fleurs (Ja
 1. Propose trois hypothèses au plus, classées de la plus probable à la moins probable.
 2. Pour chacune : comment la vérifier dans le navigateur (console, point d'arrêt).
 3. Aucun correctif à ce stade.
+4. Réponds en français, avec des mots simples.
 
 [SYMPTOME]
 Un client qui commandait un samedi soir a vu proposer une livraison le « dimanche 15 novembre » alors que la boutique est fermée le dimanche. Il ne voyait aucun samedi dans la liste.

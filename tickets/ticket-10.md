@@ -26,6 +26,7 @@ Tu m'aides à trouver la cause d'un bug sur le site d'une boutique de fleurs (Ja
 1. Propose trois hypothèses au plus, classées de la plus probable à la moins probable.
 2. Pour chacune : comment la vérifier dans le navigateur (console, Stockage).
 3. Aucun correctif à ce stade.
+4. Réponds en français, avec des mots simples.
 
 [SYMPTOME]
 Une cliente fidèle, qui commandait déjà sur le site l'an dernier avant la nouvelle version, voit « NaN € » à la place des prix dans son panier et ne peut plus commander. Chez les autres clientes tout fonctionne.
